@@ -1,0 +1,378 @@
+/**
+* @version $Id: styles.css 3551 2006-05-18 20:23:01Z stingrey $
+* @package Joomla
+* @copyright Copyright (C) 2005 Open Source Matters. All rights reserved.
+* @license http://www.gnu.org/copyleft/gpl.html GNU/GPL, see LICENSE.php
+* Joomla! is free software and parts of it may contain or be derived from works
+* licensed under the GNU General Public License or other free or open source
+* software licenses. See COPYRIGHT.php for copyright notices and details.
+*/
+
+body {
+        margin: 0px;
+        padding: 0px;
+        color : #333;
+        background-color : #FFF;
+        font-size : 11px;
+        font-family : Arial, Helvetica, sans-serif;
+}
+
+a {
+        color: #2c5495;
+        text-decoration: none;
+}
+a:hover {
+        color : #2c5495;
+        text-decoration : underline;
+}
+a:active {
+        color : #333333;
+        text-decoration : underline;
+}
+
+td {
+        font-size: 11px;
+}
+
+input, textarea, select {
+        z-index : -3;
+        font-size: 11px;
+}
+
+.header {
+	width: 100%;
+        background-color: #fff;
+}
+
+/* search module */
+table.feMain {
+	width: 700px;
+	padding: 10px;
+	background: #efefef;
+}
+table.feMain th {
+	font-size: 13px;
+	font-weight: bold;
+	text-align: left;
+	padding-bottom: 5px;
+}
+
+table.feUserBar {
+	width: 700px;
+	padding: 10px;
+	background-color: #fea8ff;
+}
+
+table.procList {
+        width: 700px;
+        padding: 10px;
+        background: #e3e7f4;
+}
+table.procList th {
+	font-size: 11px;
+	text-align: left;
+}
+
+table.feProcView {
+	padding: 0px;
+}
+table.feProcView td {
+	padding: 4px;
+	background: #f6f6f6;
+}
+
+table.feProcDetails {
+	width: 700px;
+	padding: 10px;
+	background: #e3e7f4;
+}
+
+table.feProcDetailsContainer {
+	background-color: #f9f9f9;
+	border: solid 1px #d5d5d5;
+	width: 100%;
+	padding: 10px;
+	border-collapse: collapse;
+}
+table.feProcDetailsContainer th {
+	font-size: 11px;
+	font-weight: bold;
+	text-align: left;
+}
+table.feProcDetailsContainer td {
+        padding: 4px;
+        text-align: left;
+}
+
+table.feProcQuests {
+        width: 700px;
+        padding: 10px;
+        background: #e9f8c3;
+}
+table.feProcQuests th {
+	font-size: 12px;
+	font-weight: bold;
+	text-align: left;
+}
+table.feProcQuestsContainer th {
+	font-size: 11px;
+}
+table.feProcQuestsContainer td {
+	padding: 4px;
+}
+table.feProcQuestsRow td {
+	padding: 1px;
+}
+
+/* search parameter titles (i.e. Tipo de Proceso) */
+.srchParamTitle {
+}
+
+td.lastProcessesCol {
+	background: #e3e7f4;
+}
+table.lastProcesses {
+	width: 350px;
+	padding: 10px;
+	background: #e3e7f4;
+}
+table.lastProcesses th {
+	font-size: 12px;
+	font-weight: bold;
+	text-align: left;
+	padding-bottom: 5px;
+}
+
+td.topRankedProcessesCol {
+	background: #e9f8c3;
+}
+table.topRankedProcesses {
+	width: 350px;
+	padding: 10px;
+	background: #e9f8c3;
+}
+table.topRankedProcesses th {
+	font-size: 12px;
+	font-weight: bold;
+	text-align: left;
+	padding-bottom: 5px;
+}
+
+/* domTT Overlib Style */
+div.domTTOverlib {
+	width: 350px;
+        border: 1px solid #333366;
+        background-color: #333366;
+}
+div.domTTOverlib .caption {
+        font-size: 11px;
+        font-weight: bold;
+        color: #FFFFFF;
+	padding-left: 4px;
+	padding-right: 4px;
+}
+div.domTTOverlib .contents {
+	width: 342px;
+        font-size: 11px;
+        padding: 4px;
+        background-color: #F1F1FF;
+}
+
+/* generic admin form */
+table.adminform {
+        background-color: #f9f9f9;
+        border: solid 1px #d5d5d5;
+        width: 100%;
+        padding: 10px;
+        border-collapse: collapse;
+}
+table.adminform th {
+        font-size: 11px;
+        padding-top: 6px;
+        padding-bottom: 2px;
+        padding-left: 4px;
+        padding-right: 4px;
+        text-align: left;
+        height: 25px;
+        background: url(../images/background.jpg);
+        color: #000;
+        background-repeat: repeat;
+}
+
+table.adminform td {
+        padding: 3px;
+        text-align: left;
+}
+
+textarea, .text_area {
+        border : 1px solid #ccc;
+        z-index: -3;
+        font-size: 11px;
+}
+
+div.centermain {
+        padding: 0 10px;
+}
+
+div.main {
+        width: 99%;
+        padding: 0;
+}
+
+/* text display from msg url option */
+.message {
+        font-family : "Trebuchet MS", Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size : 10px;
+        color : #0077bc;
+}
+
+.question {
+	font-style: italic;
+}
+
+/* header block */
+table.adminheading {
+        background-color: #FFF;
+        font-family : Arial, Helvetica, sans-serif;
+        margin: 0px;
+        padding: 0px;
+        border: 0px;
+        width: 100%;
+        border-collapse: collapse;
+        color: #2c5495;
+        font-size : 18px;
+        font-weight: bold;
+        text-align: left;
+}
+table.adminheading th {
+        background: url(../../../images/generic.png) no-repeat left;
+        text-align: left;
+        height: 50px;
+        width: 99%;
+        padding-left: 50px;
+        border-bottom: 5px solid #fff;
+}
+table.adminheading th.cpanel {
+        background: url(../images/cpanel.png) no-repeat left;
+}
+table.adminheading th.proclist {
+	background: url(../images/proc_list.png) no-repeat left;
+}
+table.adminheading th.newproc {
+        background: url(../images/proc_new.png) no-repeat left;
+}
+table.adminheading th.userslist {
+        background: url(../images/users_list.png) no-repeat left;
+}
+table.adminheading th.usersnew {
+	background: url(../images/users_new.png) no-repeat left;
+}
+table.adminheading th.questslist {
+	background: url(../images/quests_list.png) no-repeat left;
+}
+table.adminheading th.questsnew {
+	background: url(../images/quests_new.png) no-repeat left;
+}
+table.adminheading th.docslist {
+	background: url(../images/docs_list.png) no-repeat left;
+}
+table.adminheading th.docsnew {
+	background: url(../images/docs_new.png) no-repeat left;
+}
+table.adminheading th.monitorlist {
+	background: url(../images/monitor_list.png) no-repeat left;
+}
+
+/* standard list style table */
+table.adminlist {
+        background-color: #FFFFFF;
+        margin: 0px;
+        padding: 0px;
+        border: 1px solid #ddd;
+        border-spacing: 0px;
+        width: 100%;
+        border-collapse: collapse;
+}
+
+table.adminlist th {
+        margin: 0px;
+        padding: 6px 4px 2px 4px;
+        height: 25px;
+        background: url(../images/background.jpg);
+        background-repeat: repeat;
+        font-size: 11px;
+        color: #000;
+}
+table.adminlist th.title {
+        text-align: left;
+}
+table.adminlist th a:link, table.adminlist th a:visited {
+        color: #c64934;
+        text-decoration: none;
+}
+
+table.adminlist th a:hover {
+        text-decoration: underline;
+}
+
+table.adminlist tr.row0 {
+        background-color: #F9F9F9;
+}
+table.adminlist tr.row1 {
+        background-color: #FFF;
+}
+table.adminlist td {
+        border-bottom: 1px solid #e5e5e5;
+        padding: 4px;
+}
+table.adminlist tr.row0:hover {
+        background-color: #f1f1f1;
+}
+table.adminlist tr.row1:hover {
+        background-color: #f1f1f1;
+}
+table.adminlist td.options {
+        background-color: #ffffff;
+        font-size: 8px;
+}
+
+/* top menu */
+table.menubar {
+        width: 100%;
+}
+.menubg {
+        background: #F1F3F5;
+        border-bottom: 1px solid #cccccc;
+}
+
+
+/* quick icons */
+#cpanel {  text-align: center;  vertical-align: middle; }
+
+#cpanel div.icon   { margin: 3px; }
+#cpanel div.icon a {
+        display: block; float: left;
+        height: 97px !important;
+        height: 100px;
+        width: 108px !important;
+        width: 110px;
+        vertical-align: middle;
+        text-decoration : none;
+        border: 1px solid #DDD;
+        padding: 2px 5px 1px 5px;
+}
+
+#cpanel div.icon a:link    {  color : #808080;  }
+#cpanel div.icon a:hover   {
+        color : #333;
+        background-color: #f1e8e6;
+        border: 1px solid #2c5495;
+        padding: 3px 4px 0px 6px;
+}
+#cpanel div.icon a:active  {  color : #808080;  }
+#cpanel div.icon a:visited {  color : #808080;  }
+
+#cpanel div.icon img { margin-top: 13px; }
+#cpanel div.icon span { display: block; padding-top: 3px;}
+

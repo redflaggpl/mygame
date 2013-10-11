@@ -1,0 +1,175 @@
+.headlines {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #666666;
+	font-weight: bold;
+}
+.error {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FF0000;
+	text-decoration: none;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333333;
+	margin: 0px;
+}
+.footer {
+	color: #FFFFFF;
+}
+.user {
+	color: #FFFFFF;
+}
+
+.bgConts {
+	background-image: url(images/downConts.png);
+	background-repeat: repeat-x;
+}
+
+a:link, a:visited, a:active {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #333333;
+	text-decoration: none;
+}
+
+a:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #FF3300;
+	text-decoration: underline;
+}
+
+.lotes table{
+	margin: 2px;
+	background-color:#FFFFCC;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+.lotes table a{
+	text-decoration:none;
+	cursor:pointer;
+}
+.lotes td { 
+	padding-top:2px; 
+	padding-bottom:2px;
+	padding-left:10px;
+	padding-right:10px;
+	color:#666666;
+}
+.encabezado{
+	background-color:#DFDFDF;
+}
+.encabezado_selec{
+	background-color:#cccccc;
+}
+.filas_selec{
+	background-color:#efefef;
+}
+#cancel {
+	background-color: #E8E8E8;
+	margin: 0px;
+	border: 1px solid #CCCCCC;
+	width: 300px;
+	padding: 5px;
+}
+
+#contenidos {
+		margin-top: 0px;
+		padding-top: 0px;
+		
+	}
+	
+.invgen td{
+	border-bottom: 1px solid #cccccc;
+	padding: 5px;
+	background-color: #ffffff;
+}
+
+.invgen th td{
+	font-weight: bold;
+	background-color: #cccccc;
+}
+
+#nav {
+	margin: 10px;
+	padding: 5px;
+	border: 1px solid #cccccc;
+	height: 25px;
+	}
+	
+#iconnav {
+	padding: 5px;
+	border: 1px solid #cccccc;
+	width: 30px;
+	height: 30px;
+	float: right;
+	margin-right: 5px;
+	}
+	
+.detalleprods {
+	width: 400px;
+	border: 1px solid #cccccc;
+	padding: 5px;
+	background-color: #ffffff;
+	margin: auto;
+}
+
+.detalleprods td {
+	padding: 5px;
+	border-bottom: 1px solid #cccccc;
+}
+
+.tablehead {
+	font-weight: bold;
+	font-size: 14px;
+	}
+	
+#cpanel {  text-align: center;  vertical-align: middle; }
+
+#cpanel div.icon   { margin: 3px; }
+#cpanel div.icon a { 
+	display: block; float: left;
+	height: 97px !important;
+	height: 100px; 
+	width: 108px !important;
+	width: 110px; 
+	vertical-align: middle; 
+	text-decoration : none;
+	border: 1px solid #DDD;
+	padding: 2px 5px 1px 5px;
+}
+
+#cpanel div.icon a:link    {  color : #000033;  }
+#cpanel div.icon a:hover   { 
+	color : #333; 
+	background-color: #EAF0E1;  
+	border: 1px dotted #A5C45B;
+	padding: 3px 4px 0px 6px; 
+}
+#cpanel div.icon a:active  {  color : #000033;  }
+#cpanel div.icon a:visited {  color : #000033;  }
+
+#cpanel div.icon img { margin-top: 13px; }
+#cpanel div.icon span { display: block; padding-top: 3px;}
+
+.message {
+	padding: 10px;
+	margin: 10px;
+	color: red;
+	border: 1px solid red;
+	}
+	
+#unidadesDisponibles {
+		float: left;
+		color: red;
+	}
+.tableform td {
+	border-bottom: 1px solid #cccccc;
+	}
+.headforms {
+	font-weight: bold;
+	color: #333333;	
+}
